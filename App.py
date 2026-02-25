@@ -175,7 +175,30 @@ for i in range(subjects):
             key=f"c{i}"
         )
 
-    subject_gpa = (marks / 100) * 4
+    # University Grade Scale ke mutabiq GPA mapping
+    if marks >= 85:
+        subject_gpa = 4.00
+    elif marks >= 80:
+        subject_gpa = 3.67
+    elif marks >= 75:
+        subject_gpa = 3.33
+    elif marks >= 71:
+        subject_gpa = 3.00
+    elif marks >= 68:
+        subject_gpa = 2.67
+    elif marks >= 64:
+        subject_gpa = 2.33
+    elif marks >= 60:
+        subject_gpa = 2.00
+    elif marks >= 57:
+        subject_gpa = 1.67
+    elif marks >= 53:
+        subject_gpa = 1.33
+    elif marks >= 50:
+        subject_gpa = 1.00
+    else:
+        subject_gpa = 0.00
+
     total_weighted_gpa += subject_gpa * credit
     total_credits += credit
 
