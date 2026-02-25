@@ -1,0 +1,32 @@
+Student_ID,Name,Subject,Marks,Credit_Hours,Semester,GPA_Points,Weighted_Points,Study_Hours,Attendance
+102,dil,Maths,88,3,1,4.0,12.0,5,92
+102,dil,bio ,50,3,1,1.0,3.0,13,64
+102,dil,english,86,3,1,4.0,12.0,25,54
+102,dil,Ah,80,2,1,3.0,6.0,16,84
+102,dil,Isl,53,2,1,1.0,2.0,13,70
+102,dil,logic,80,2,1,3.0,6.0,16,53
+102,dil,NS,88,3,1,4.0,12.0,16,58
+101,Azhar ,Maths,60,3,1,2.0,6.0,14,81
+101,Azhar ,physics ,65,3,1,2.0,6.0,12,91
+101,Azhar ,computer,70,2,1,3.0,6.0,5,69
+101,Azhar ,english,45,1,1,0.0,0.0,17,52
+101,Azhar ,urdu,55,1,1,1.0,1.0,14,67
+101,Azhar ,islamiyat,30,1,1,0.0,0.0,18,94
+106,nisar,Maths,80,3,4,3.0,9.0,6,53
+106,nisar,physics ,70,3,4,3.0,9.0,9,91
+106,nisar,computer,55,2,4,1.0,2.0,6,78
+106,nisar,english,60,1,4,2.0,2.0,8,56
+106,nisar,urdu,45,1,4,0.0,0.0,18,100
+112,nisar,islamiyat,35,1,4,0.0,0.0,10,77
+112,arshid,Maths,50,3,3,1.0,3.0,24,60
+112,arshid,physics ,90,3,3,4.0,12.0,20,68
+112,arshid,computer,70,2,3,3.0,6.0,7,76
+112,arshid,english,55,1,3,1.0,1.0,20,53
+112,arshid,urdu,60,1,3,2.0,2.0,18,95
+112,arshid,islamiyat,30,1,3,0.0,0.0,8,100
+118,wahleed,Maths,60,3,2,2.0,6.0,13,68
+118,wahleed,physics ,40,3,2,0.0,0.0,21,66
+118,wahleed,computer,99,2,2,4.0,8.0,24,53
+118,wahleed,english,80,1,2,3.0,3.0,12,84
+118,wahleed,urdu,40,1,2,0.0,0.0,21,75
+118,wahleed,islamiyat,45,1,2,0.0,0.0,23,74
