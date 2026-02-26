@@ -38,17 +38,14 @@ if not st.session_state['is_logged_in']:
             else:
                 st.error("Invalid Username or Password")
 
-  with tab2:
+    with tab2:
         st.subheader("📝 Create Your Account")
-        
-        # Optional Names
         col_n1, col_n2 = st.columns(2)
         with col_n1:
             f_name = st.text_input("First Name", key="reg_fname")
         with col_n2:
             l_name = st.text_input("Last Name", key="reg_lname")
             
-        # Required Fields
         email = st.text_input("Email Address", key="reg_email")
         s_user = st.text_input("Choose Username", key="reg_username")
         
@@ -65,7 +62,7 @@ if not st.session_state['is_logged_in']:
                 st.error("Passwords match nahi kar rahe!")
             else:
                 st.session_state.user_db[s_user] = s_pass
-                st.success(f"Mubarak ho {f_name}! Account ban gaya. Ab Login tab mein jayein.")
+                st.success(f"Mubarak ho {f_name}! Account ban gaya. Login karein.")
                 st.balloons()
 # -------------------------------------------------
 # 3. MAIN DASHBOARD (Only shows if logged in)
