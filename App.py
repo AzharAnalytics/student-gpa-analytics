@@ -41,12 +41,20 @@ if not st.session_state['is_logged_in']:
     with tab2:
         s_user = st.text_input("Choose Username", key="signup_user")
         s_pass = st.text_input("Choose Password", type="password", key="signup_pass")
+        
         if st.button("Register Account"):
             if s_user and s_pass:
+                # User ko database (dictionary) mein save karna
                 st.session_state.user_db[s_user] = s_pass
-                st.success("Account created successfully! Now go to Login tab.")
+                
+                # Confirmation message jo screen par rukay ga
+                st.success(f"✅ Account for '{s_user}' created successfully!")
+                st.info("Ab upar 'Login' tab par click karein aur apna password likhein.")
+                
+                # Optional: Balloon urrana maza ayega
+                st.balloons()
             else:
-                st.warning("Please enter both username and password.")
+                st.warning("Username aur Password dono likhna zaroori hain!")
 
 # -------------------------------------------------
 # 3. MAIN DASHBOARD (Only shows if logged in)
